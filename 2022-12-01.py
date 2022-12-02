@@ -1,9 +1,8 @@
 #pull in input
 with open ("input") as f:
-    lines = f.read()
+    lines = f.read().splitlines()
     #This data is a set of strings right now
-    for i in range(0, len(lines)):
-        lines[i] = int(lines[i])
+    
 
 # I need to index this list by elf. Each group of numbers before the blank list needs to be summed and the largest sum identified. 
 print(lines)
