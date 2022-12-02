@@ -1,7 +1,0 @@
-#pull in input
-with open ("input.txt") as f:
-    lines = f.read().splitlines()
-    #This data is a set of strings right now
-    
-    #for i in range(0, len(lines)):
-     #   lines[i] = int(lines[i])
